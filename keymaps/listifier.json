@@ -1,0 +1,6 @@
+{
+  "atom-workspace": {
+    "ctrl-alt-s": "listifier:sql-listify",
+    "ctrl-alt-e": "listifier:json-listify"
+  }
+}

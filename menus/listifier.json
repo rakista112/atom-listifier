@@ -1,0 +1,34 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "SQL Listify",
+        "command": "listifier:sql-listify"
+      },
+      {
+        "label": "JSON Listify",
+        "command": "listifier:json-listify"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "listifier",
+          "submenu": [
+            {
+              "label": "SQL Listify",
+              "command": "listifier:sql-listify"
+            },
+            {
+              "label": "JSON Listify",
+              "command": "listifier:json-listify"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
